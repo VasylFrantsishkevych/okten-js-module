@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    //Створити масив з 10 чисел (можна використовувати Math.random Та Math.floor). Скласти результат цих чисел в змінній result.
+    let a = [5, 12, 66, 33, 22, 44, 88, 55, 99, 100];
+    result = [Math.floor(Math.random() * 10)];
+    console.log(a[result]);
+
+    //Створити об'єкт book з наступними полями  - назва, кількість сторінок, жанр, автори.
+    // Вивести кожну книгу як окремий об'єкт
+
+    let book1 = {
+        name: 'Та, що породжує вогонь',
+        pages: 512,
+        genre: 'Фантастика',
+        author: 'С. Кінг'
+    }
+
+    let book2 = {
+        name: 'Покров',
+        pages: 280,
+        genre: 'Фантастика',
+        author: 'Люко Давшар'
+    }
+
+    let book3 = {
+        name: 'Дюна',
+        pages: 656,
+        genre: 'Фантастика',
+        author: 'Ф. Герберт'
+    }
+    console.log(book1, book2, book3);
+
+    //Напишіть код, який вираховує площу прямокутника
+    //висотою 23см. (змінна height) та шириною 10см (змінна width).
+
+    let height = 23;
+    wight = 10;
+    let s = height * wight;
+    console.log(s);
+
+    // Напиши код, який знаходить об'єм циліндра
+    // заввишки 10м (змінна heightC) та діаметром основи 4м (dC),
+
+    let heightC = 10;
+    dC = 4;
+    r = dC / 2;
+    const PI = 3.14;
+    let v = PI * (r ** 2) * heightC;
+    console.log(v);
+
+    // У прямокутного трикутника дві сторони n (зі значенням 3) та m (зі значенням 4).
+    //  Знайдіть гіпотенузу k за теоремою Піфагора (потрібно використовувати функцію Math.pow (число, ступінь)
+    //  або оператор зведення в ступінь **).
+
+    let n = 3;
+        m = 4;
+    k = Math.pow(3,2)+Math.pow(4,2);
+    console.log(Math.sqrt(k));
+
+
+</script>
+
+</body>
+</html>
