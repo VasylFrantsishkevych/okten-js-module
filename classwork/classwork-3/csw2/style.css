@@ -1,0 +1,13 @@
+.product-card {
+    width: 200px;
+    border: 2px solid gray;
+    margin-bottom: 10px;
+}
+.product-title {
+    display: flex;
+    justify-content: center;
+}
+.product-image {
+    width: 200px;
+    border-top: 2px solid gray;
+}
