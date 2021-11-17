@@ -124,11 +124,10 @@
 //     {user_id: 2, country: 'Poland', city: 'Krakow'},
 //     {user_id: 4, country: 'USA', city: 'Miami'}
 // ];
-// let  usersWithCities = [];
 // for (let user of usersWithId) {
 //     for (let city of citiesWithId) {
 //         if (user.id === city.user_id){
-//             user.address = citiesWithId;
+//             user.address = city;
 //         }
 //     }
 // }
