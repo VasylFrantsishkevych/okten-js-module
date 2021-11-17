@@ -1,0 +1,19 @@
+.wrap {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 25px;
+}
+.post-card {
+    width: 19%;
+    border-left: 2px solid #b0b0b0;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.post-card p{
+    text-align: justify;
+}
+.post-card h3 {
+    text-align: center;
+}
