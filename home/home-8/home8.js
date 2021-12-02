@@ -44,8 +44,8 @@
 
 // // -- отримати весь список класів елемента з id=rules і вивести їх в console.log
 //
-let rulesClass = document.getElementById('rules');
-    console.log(rulesClass.classList);
+// let rulesClass = document.getElementById('rules');
+//     console.log(rulesClass.classList);
 //
 
 // // -- поміняти колір тексту у всіх елементів fc_rules на червоний
