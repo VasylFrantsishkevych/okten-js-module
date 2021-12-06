@@ -1,27 +1,37 @@
-// // - Создать произвольный елемент с id = text.  Используя JavaScript, сделайте так, чтобы при клике на кнопку исчезал элемент с id="text".
+// // // - Создать произвольный елемент с id = text.  Используя JavaScript, сделайте так, чтобы при клике на кнопку исчезал элемент с id="text".
 //
-// let btn = document.getElementById('btn');
+// let div = document.createElement('div');
+// div.setAttribute('id', 'text');
+// let btn = document.createElement('button');
+// btn.innerText = 'Enter';
+// document.body.append(div, btn);
 // btn.onclick = function (){
 //     let el = document.getElementById('text');
 //     el.hidden = true;
 // }
 //
-// //     - Создайте кнопку, при клике на которую, она будет скрывать сама себя.
+// // //     - Создайте кнопку, при клике на которую, она будет скрывать сама себя.
 //
-// let btn = document.getElementById('btn');
+// let btn = document.createElement('button');
+// btn.innerText = 'OK';
+// document.body.appendChild(btn);
 // btn.onclick = function () {
 //     btn.style.display = 'none';
 // }
 //
-// // - створити інпут який приймає вік людини та кнопку яка підтверджує дію.
+// // // - створити інпут який приймає вік людини та кнопку яка підтверджує дію.
 // // При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
 //
-// let f = document.forms.f;
-// f.onsubmit = function (e) {
-//     e.preventDefault();
-//     let age = this.age.value;
+// let input = document.createElement('input');
+// input.setAttribute('name', 'age');
+// let btn = document.createElement('button');
+// btn.innerText = 'OK';
+// document.body.append(input, btn);
+// btn.onclick = function (){
+//     let age = input.value;
 //     if (age < 18 ) {
 //         alert('Age less than 18');
+//         input.value = '';
 //     }else{
 //         console.log({age: age});
 //     }
@@ -36,10 +46,10 @@
 //     menu.classList.toggle('open');
 // }
 //
-// // - Создать список комментариев , пример объекта коментария - {title : 'lorem', body:'lorem ipsum dolo sit ameti'}.
-// //     Вывести список комментариев в документ, каждый в своем блоке.
-// //     Добавьте каждому комментарию по кнопке для сворачивания его body.
-//
+// // // - Создать список комментариев , пример объекта коментария - {title : 'lorem', body:'lorem ipsum dolo sit ameti'}.
+// // //     Вывести список комментариев в документ, каждый в своем блоке.
+// // //     Добавьте каждому комментарию по кнопке для сворачивания его body.
+// //
 // let dayList = [
 //     {title:'Понеділок', body: 'Піти в магазин'},
 //     {title:'Вівторок', body: 'Приготувати обід'},
