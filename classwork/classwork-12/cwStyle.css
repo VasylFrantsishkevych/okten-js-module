@@ -1,0 +1,36 @@
+.wrap {
+    width: 100%;
+}
+.container{
+    margin-bottom: 20px;
+    display: flex;
+}
+.post {
+    width: 18%;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0 grey;
+    padding: 8px;
+}
+.comments {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    visibility: hidden;
+}
+.commentContainer {
+    width: 18%;
+    box-shadow: 0 0 5px 2px #dbdde5;
+    box-sizing: border-box;
+    padding: 5px;
+}
+h4, p {
+    text-align: justify;
+}
+.btn {
+    display: flex;
+    justify-content: flex-end;
+}
+.openComments {
+    visibility: visible;
+}
