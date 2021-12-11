@@ -18,16 +18,16 @@
 // div.classList.add('style');
 // document.body.appendChild(div);
 //
-// document.addEventListener('click', function (e){
+// document. = function (e){
 //     let p = document.createElement('p');
 //     p.innerText = `Назва тегу: ${e.target.localName}
 //         Id: ${e.target.id}
 //         Список класів: ${e.target.className}
 //         Розміри: ${e.target.clientHeight}*${e.target.clientWidth}`;
 //     div.appendChild(p);
-//     div.classList.toggle('open');
-//     return div;
-// });
+//     div.classList.add('open');
+// };
+
 
 // -- взять массив пользователей
 // let usersWithAddress = [

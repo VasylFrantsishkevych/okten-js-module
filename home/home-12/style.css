@@ -1,0 +1,36 @@
+.wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.post {
+    width: 18%;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0 grey;
+    padding: 8px;
+}
+h4, p{
+    text-align: justify;
+}
+.wrapTwo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.comments {
+    width: 18%;
+    border-left: 2px solid #2c032b;
+    box-sizing: border-box;
+    padding: 8px;
+}
+.postId {
+    display: flex;
+    justify-content: space-around;
+}
+.name {
+    text-align: center;
+}
