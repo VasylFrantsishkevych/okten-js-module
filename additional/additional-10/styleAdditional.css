@@ -1,0 +1,92 @@
+.container {
+    width: 100%;
+}
+.users {
+    width: 50%;
+    box-shadow: 0 0 10px 0 black;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+.users__name {
+    display: flex;
+    justify-content: space-around;
+}
+.users h2 {
+    margin: 5px;
+}
+.users__address {
+    display: flex;
+    justify-content: space-around;
+}
+.users__address h4 {
+    margin: 5px;
+}
+.users__address ul {
+    margin: 5px;
+}
+.users__button {
+    display: flex;
+    justify-content: center;
+}
+.posts {
+    width: 15%;
+    display: none;
+}
+.post {
+    width: 100%;
+}
+.post__card {
+    height: 400px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 0 grey;
+    padding: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.posts__open {
+    display: block;
+}
+.posts h4 {
+    text-align: center;
+}
+.posts p{
+    text-align: justify;
+}
+.posts__button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.wrap {
+    display: flex;
+}
+.comments {
+    width: 80%;
+}
+.comment__wrap {
+    display: none;
+}
+.comment__wrap_open {
+    display: block;
+}
+.comment {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.card {
+    width: 19%;
+    box-shadow: 0 0 5px 0 #cccaca;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.card h2 {
+    margin: 5px;
+}
+.card h3 {
+    margin: 5px;
+}
