@@ -5,6 +5,7 @@ let btnDelete = document.createElement('button');
 btnDelete.innerText = 'DELETE';
     btnDelete.onclick = () => {
         localStorage.removeItem('product');
+        divWrap.remove();
     };
 document.body.append(btnDelete, divWrap);
 let productsId = JSON.parse(localStorage.getItem(item));
