@@ -1,0 +1,26 @@
+.user__name_container {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 20px;
+}
+.user__name_card {
+    width: 47%;
+    box-shadow: 0 0 5px 0 lightgray;
+    box-sizing: border-box;
+    padding: 8px 8px 15px;
+    text-align: center;
+    border-radius: 7px;
+}
+.user__name_card h2 {
+    margin: 3px 0 8px;
+}
+.user__name_card a {
+    background: #8eafb0;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+}
