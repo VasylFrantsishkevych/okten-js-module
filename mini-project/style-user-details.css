@@ -52,8 +52,15 @@
     border-left: 2px  solid #dbdde5;
     box-sizing: border-box;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: -2px;
 }
 .post__title a {
-    border-left: 2px  solid #dbdde5;
-    padding: 10px;
+    width: 78px;
+    background: #dbdde5;
+    padding: 5px;
+    border-radius: 6px;
+    text-decoration: none;
 }

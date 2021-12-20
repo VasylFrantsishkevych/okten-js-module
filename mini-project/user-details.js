@@ -100,14 +100,16 @@ fetch('https://jsonplaceholder.typicode.com/users/' + idOfUsers)
                     let pPostTitle = document.createElement('p');
                     pPostTitle.innerText = `${post.title}`;
 
-                    divPostCard.appendChild(pPostTitle);
-                    divPostTitle.append(divPostCard, aPosts);
+                    let aPosts = document.createElement('a');
+                    aPosts.innerText = 'Post Details';
+                    aPosts.href = 'post-details.html?data=' + JSON.stringify(post);
+
+                    divPostCard.append(pPostTitle, aPosts);
+                    divPostTitle.appendChild(divPostCard);
 
                 });
             });
-        let aPosts = document.createElement('a');
-        aPosts.innerText = 'Post Details';
-        aPosts.href = 'post-details.html';
+
 
         divUserButton.append(btnUsers);
         divPost.append(divUserButton, divPostTitle);

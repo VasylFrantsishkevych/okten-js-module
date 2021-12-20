@@ -1,0 +1,36 @@
+.post__comment {
+    width: 100%;
+}
+.post {
+    width: 50%;
+    border: 2px solid #dbdde5;
+    margin: 0 auto;
+    padding: 10px;
+}
+.post__id {
+    display: flex;
+    justify-content: space-around;
+}
+.post h4 {
+    text-align: center;
+}
+.post p {
+    text-align: justify;
+}
+.comments {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #dbdde5;
+    margin: 10px auto;
+    box-sizing: border-box;
+    padding: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.comment__card {
+    width: 24%;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px 2px #dbdde5;
+    padding: 5px;
+}
